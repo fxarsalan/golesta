@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "IRANSansLight";
+  src: url("/fonts/IRANSansLight.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: "IRANSansLight", Tahoma, sans-serif;
+  --color-brand: #ed1c24;
+  --color-charcoal: #282828;
+}
